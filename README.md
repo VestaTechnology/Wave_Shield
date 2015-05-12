@@ -33,6 +33,10 @@ This project will play all the correctly formatted music files in the root direc
 [wavShieldZIP]: https://github.com/VestaTechnology/Wave_Shield/archive/master.zip
 [QS]: https://github.com/VestaTechnology/Onboard_Mercury_18/blob/master/README.md
 
+This project uses the common header mercury18.h.  It looks for the headed file one directory up from the project directory.  You can download mercury18.h from our [Onboard_Mercury_18][mer18] repository.  It is located in the folder Common.
+
+[mer18]: https://github.com/VestaTechnology/Onboard_Mercury_18
+
 ###Project Architecture
 __DiskIO__ is the low level disk I/O module of Petit FatFs that is processor specific.  This was written by Vesta Technology specifically for use with a Mercury 18, though it may work, or at least serve as a guide, for any PIC18F66K90 board.  It contains functions for initializing and communicating with an SD card.
 
