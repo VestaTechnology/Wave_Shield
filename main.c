@@ -27,7 +27,6 @@
 #include "pff.h"
 #include "pffconf.h"
 #include "waveReader.h"
-#include "config_bits.h"
 
 /* Set the configuration bits:
  * - No extended instruction set
