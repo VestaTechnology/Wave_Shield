@@ -4,8 +4,8 @@ This project lets you use the Adafruit Arduino Wave Shield with a Mercury 18!  A
 __First of all, documentation and recognition is needed.__
 
 * This project is for an Arduino Shield developed by [Adafruit], buy it [here][purchase]!
-	* Mercury is Arduino-pin compatible so the shield will work, it just needs some Mercury specific software to drive it (this project :))!
-	* Adafruit has a [wonderful site][learn] full of indispensable information about their shield.  We assembled our shield based on [their instructions][assemble].  I recommend at least skimming it.
+	* Mercury is Arduino-pin compatible so the shield will work, it just needs some Mercury specific software to drive it (this project :smiley:)!
+	* Adafruit has a [wonderful site][learn] full of indispensable information about their shield.  We assembled our shield based on [their instructions][assemble].
 * This project makes use of a FAT file system module, [Petit FatFs][pFAT], developed by ChaN
 	* see the [Application Note] for general info and license
 * Here is a [sweet tutorial][SDTutorial] that does a good job of describing the FAT file system on an SD card, thanks [Joonas Pihlajamaa].
@@ -33,7 +33,7 @@ This project will play all the correctly formatted music files in the root direc
 [wavShieldZIP]: https://github.com/VestaTechnology/Wave_Shield/archive/master.zip
 [QS]: https://github.com/VestaTechnology/Onboard_Mercury_18/blob/master/README.md
 
-This project uses the common header mercury18.h.  It looks for the headed file one directory up from the project directory.  You can download mercury18.h from our [Onboard_Mercury_18][mer18] repository.  It is located in the folder Common.
+This project uses the common header mercury18.h.  It looks for the header file one directory up from the project directory.  You can download mercury18.h from our [Onboard_Mercury_18][mer18] repository.  It is located in the folder Common.
 
 [mer18]: https://github.com/VestaTechnology/Onboard_Mercury_18
 
